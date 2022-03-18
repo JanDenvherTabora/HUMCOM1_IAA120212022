@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Jan Denvher Tabora" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form Jan Denvher Tabora</title>
+    </head>
+    <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;line-height: 2;color: black white;"></body>
+    <h1 style=font-family:Arial, Helvetica, sans-serif;font-size: 55px;color: rgb(248, 248, 248);>Sign up now!</h1>
+    <hr>
+    <p style="font-size: 20px;">Field marked with (*) are required</p>
+    <form action="/action_page.php"></form>
+    <fieldset>
+        <legend><h2 style="line-height: 0.1;">Your Details</h2></legend>
+        <label for="name">Name*</label>
+        <input type="text" id="name" placeholder="Fullname">
+        <br>
+        <label for="phone">Email*</label>
+        <input type="text" id="Email" placeholder="Jan@gmail.com">
+        <br>
+        <label for="phone">Phone*</label>
+        <input type="text" id="Phone" placeholder="Must be 11 digits">
+    </fieldset>
+    <fieldset>
+        <legend><h2 style="line-height: 0.1;">Delivery Address</h2></legend>
+        <label for="address">Address 1*</label>
+        <input type="test" id="address" placeholder="House Address">
+        <br>
+        <label for="address">District/Barangay*</label>
+        <input type="test" id="District" placeholder="e.g Private Road magsaysay">
+        <br>
+        <label for="address">City</label>
+        <select name="city" id="City">
+            <option value="abra">Abra</option>
+            <option value="angeles">Angeles</option>
+            <option value="bacoor">Bacoor</option>
+            <option value="baguio">Baguio</option>
+            <option value="batangas">Batangas</option>
+            <option value="cavite">Cavite</option>
+            <option value="caloocan">Caloocan</option>
+            <option value="dagupan">Dagupan</option>
+            <option value="gapan">Gapan</option>
+            <option value="malabon">Malabon</option>
+            <option value="manila">Manila</option>
+            <option value="marikina">Marikina</option>
+            <option value="quezon city">Quezon city</option>
+            <option value="pasay">Pasay</option>
+        </select>
+        <br>
+        <label for="postal">Postal Code*</label>
+        <input type="text" id="postal" placeholder="e.g 2600">
+        <br>
+        <lable for="province">province*</lable>
+        <select name="province" id="province">
+            <option value="banaue">Banaue</option>
+            <option value="ilocos">Ilocos</option>
+            <option value="bataan">Bataan</option>
+            <option value="bulacan">Bulacan</option>
+            <option value="nueva ecija">Nueva Icija</option>
+            <option value="pampanga">Pampanga</option>
+            <option value="tarlac">Tarlac</option>
+            <option value="zambales">Zambales</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend><h2 style="line-height: 0.1;">Membership Information</h2></legend>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="at least 8 alpha numerical characters">
+        <br>
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="e.g hesoyam123">
+        <br>
+        <dt>Magazine Subscription</dt>
+        <input type="checkbox" id="pc" name="pc" value="PCMagazine">
+        <label for="pc">PCMagazine</label><br>
+        <input type="checkbox" id="wired" name="wired" value="wired">
+        <label for="wired">Wired</label><br>
+        <input type="checkbox" id="comp" name="comp" value="comp">
+        <label for="comp">Computer World</label><br>
+        <input type="checkbox" id="i dont" name="i dont" value="idont">
+        <label for="i dont">I dont subscribe</label><br>
+        <label type="checkbox" id="Others" name="Others" value="Others">
+        <label for="others">Others</label><br>
+        </label>
+    </fieldset>
+    <input type="submit" onclick="alert('Thank you for your response!')" value="Sign up">
+</html>
